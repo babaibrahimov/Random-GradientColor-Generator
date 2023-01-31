@@ -20,7 +20,7 @@ let Generate = () => {
     let deg = Math.floor(Math.random() * 360)
     body.style.background = `linear-gradient(${deg}deg, ${colorOne}, ${colorTwo})`;
     gradientBox.style.background = `linear-gradient(${deg}deg, ${colorOne}, ${colorTwo})`;
-    output.value = `background: linear-gradient(${deg}deg, ${colorOne}, ${colorTwo})`;
+    output.value = `background: linear-gradient(${deg}deg, ${colorOne}, ${colorTwo});`;
 }
 
 let Copy = () => {
